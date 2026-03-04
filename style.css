@@ -1,0 +1,231 @@
+p{
+    color: white;
+}
+
+body {
+    background: radial-gradient(circle at top, #0f0f1a, #000000 70%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.destaque{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.destaque2 {
+    text-align: center;
+    font-size: 12px;
+}
+
+h1 { 
+    
+    color:white; 
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.principais-produtos {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right:20px;
+    width: fit-content;
+}
+
+img{
+    width: 410px;
+    border-radius: 70px;
+    display: block;
+    margin: auto;
+}
+
+.lista-produtos {
+    padding: 65px 12%;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 130%;
+    white-space: nowrap;
+
+}
+
+.lista-produtos ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lista-produtos li {
+    margin-bottom: 35px;
+    padding: 15px;
+    background-color: #111;
+    border-left: 5px solid blueviolet;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.lista-produtos li:hover {
+    background-color: #1a1a1a;
+    transform: translateX(7px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 18px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    transition: 0.4s ease;
+    position: relative;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.produtos {
+    background: #111;
+    color: white;
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #1c1c1e;
+    padding: 40px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: black;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.card p {
+    opacity: 0.7;
+}
+
+.card {
+    background: #111;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 40px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.4);
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 40px;
+    text-align: center;
+    border-top: 1px solid #222;
+    
+}
+
+.tiktok {
+    margin: 0 15px; 
+    font-size: 18px;
+    color: white;
+}
+
+.tiktok {
+  transition: 0.3s;
+}
+
+.youtube {
+    margin: 0 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.instagram {
+    margin: 0 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.tiktok:hover {
+    color: blue
+}
+
+.instagram:hover {
+    color: blue
+}
+
+.youtube:hover {
+    color: blue
+}
+
+.footer2 {
+    margin-top: 100px;
+    padding: 50px 20px;
+    background: #0f0f14;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
