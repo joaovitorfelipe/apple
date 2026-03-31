@@ -31,7 +31,7 @@ h1 {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    margin-right:20px;
+    margin-left:20px;
     width: fit-content;
 }
 
@@ -46,9 +46,9 @@ img{
     padding: 65px 12%;
     background-color: black;
     color: white;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 30px;
-    width: 130%;
+    width: 260%;
     white-space: nowrap;
 
 }
@@ -124,9 +124,9 @@ img{
 }
 
 .produtos {
-    background: #111;
+    background: black;
     color: white;
-    padding: 100px 10%;
+    padding: 100px 15%;
     text-align: center;
 }
 
@@ -145,7 +145,7 @@ img{
 .card {
     background: #1c1c1e;
     padding: 40px 20px;
-    border-radius: 20px;
+    border-radius: 60px;
     transition: 0.3s ease;
 }
 
@@ -167,8 +167,8 @@ img{
     background: #111;
     border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 20px;
-    padding: 40px;
-    transition: 0.3s;
+    padding: 50px;
+    transition: 0.4s;
 }
 
 .card:hover {
@@ -188,10 +188,6 @@ img{
     margin: 0 15px; 
     font-size: 18px;
     color: white;
-}
-
-.tiktok {
-  transition: 0.3s;
 }
 
 .youtube {
@@ -229,3 +225,6 @@ img{
     letter-spacing: 0.5px;
 }
 
+.h4{
+    text-align: center;
+}
